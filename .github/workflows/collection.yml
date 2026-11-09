@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
-      - uses: alochert/benchvista-python@9253a90e022a4420567519853a170e09d7cf9f9a
+      - uses: alochert/benchvista-python@63a1c010d87581a8ed935553d1b9698b90777de6
         with:
           release: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
       - if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
