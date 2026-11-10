@@ -1,6 +1,6 @@
 {
   "name": "BenchVista collection",
-  "summary": "Official Spark Plugs and Python analysis steps for BenchVista labs.",
+  "summary": "Official Spark Plugs, Spark drivers and Python analysis steps for BenchVista labs.",
   "maintainer": "BenchVista",
   "repository": "alochert/benchvista-collection"
 }

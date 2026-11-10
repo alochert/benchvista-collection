@@ -1,12 +1,13 @@
 # BenchVista collection
 
-Official [BenchVista](https://benchvista.com) Spark Plugs and Python analysis steps.
+Official [BenchVista](https://benchvista.com) Spark Plugs, Spark drivers and Python analysis steps.
 
 **Browse it:** https://alochert.github.io/benchvista-collection/
 
 | Folder            | Holds                                                     |
 | ----------------- | --------------------------------------------------------- |
 | `spark-plugs/`    | Python programs for a Spark board, one folder per item    |
+| `spark-drivers/`  | Drivers that let a Spark Plug use a display or a sensor   |
 | `analysis-steps/` | Python steps for BenchVista analysis chains               |
 | `collection.json` | The collection's name, summary, maintainer and repository |
 
